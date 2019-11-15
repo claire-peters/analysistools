@@ -34,7 +34,7 @@ def transcribe_file(speech_file):
         # Encoding and metadata enums pulled from https://git.io/JeVSX
     	"encoding": 8,
         "metadata": {
-        "recording_device_type": 3
+            "recording_device_type": 3
         },
     	"enable_automatic_punctuation": True,
         # Enter sample rate - should be available in audio file properties.
